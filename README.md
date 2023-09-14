@@ -1,6 +1,6 @@
 # Moving Alphabet
 
-In dieser Aufgabe sollst du 2 Buchstaben mit CSS Animationen und CSS Transformationen animieren. 
+In dieser Aufgabe sollst du 2 Buchstaben mit CSS Animationen und CSS Transformationen animieren. In den Handouts `css-transform.md` und `css-animation.md` findest du weitere Informationen zu diesen beiden Themen. 
 
 ## styles.css
 Im `styles.css` findest du folgende vorgefertigten CSS-Regeln für deinen Namen: 
