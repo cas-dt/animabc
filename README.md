@@ -52,7 +52,7 @@ Im [Stylesheet](styles.css) definierst du die Gestaltungsregeln, um deine Buchst
   animation-name: abc;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-  animation-directio: alterate; /* damit es abwechselnd vor- und rückwärts animiert */
+  animation-direction: alternate; /* damit es abwechselnd vor- und rückwärts animiert */
 }
 
 @keyframes abc {
