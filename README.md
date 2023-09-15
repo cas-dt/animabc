@@ -56,8 +56,8 @@ Im [Stylesheet](styles.css) definierst du die Gestaltungsregeln, um deine Buchst
 }
 
 @keyframes abc {
-  from { transform: scale 0.5; }
-  to { transform: scale 2; }
+  from { transform: scale(0.5); }
+  to { transform: scale(2); }
 }
 ```
 
