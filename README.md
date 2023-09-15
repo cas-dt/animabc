@@ -3,7 +3,7 @@
 In dieser Aufgabe animierst du zwei Buchstaben mit CSS Animationen und CSS Transformationen.
 
 Du benötigst:
-- Diesen Ordner: Klick auf den grünen Button ´Code’, ‘Download ZIP’
+- Diesen Ordner: Klick auf den grünen Button ´Code’ und dann auf ‘Download ZIP’
 - Einen Text-Editor (z.B. Visual Studio Code mit dem Live-Server Plugin)
 
 In den Handouts [css-transform.md](css-transform.pdf) und [css-animation.md](css-animation.pdf) findest du weitere Informationen zu diesen zwei Themen.
