@@ -1,24 +1,20 @@
 # Moving Alphabet
 
-In dieser Aufgabe sollst du 2 Buchstaben mit CSS Animationen und CSS Transformationen animieren. In den Handouts `css-transform.md` und `css-animation.md` findest du weitere Informationen zu diesen beiden Themen. 
+In dieser Aufgabe animierst du zwei Buchstaben mit CSS Animationen und CSS Transformationen.
 
-## styles.css
-Im `styles.css` findest du folgende vorgefertigten CSS-Regeln für deinen Namen: 
+Du benötigst:
+- Diesen Ordner: Klick auf den grünen Button ´Code’, ‘Download ZIP’
+- Einen Text-Editor (z.B. Visual Studio Code mit dem Live-Server Plugin)
 
-```
-#name-1 {
-    /* TO DO  */
-}
-#name-2 {
-    /* TO DO  */
-}
-```
-Hier definierst du deine Gestaltungsregeln, um deine Buchstaben zu animieren. Ein Buchstabe hat jeweils einen ID-Selektor. Zur Erinnerung: Der ID-Selektor spricht die Elemente an, die im HTML-Code mit einem bestimmten ID-Attribut versehen worden sind. 
+In den Handouts [css-transform.md](css-transform.pdf) und [css-animation.md](css-animation.pdf) findest du weitere Informationen zu diesen zwei Themen.
 
-Ändere `#name-1 {...}` zu deinem Namen, um deinen Buchstaben im `index.html` anzusprechen. Unter dem `/* TO DO  */` schreibst du dann die CSS-Eigenschaften für den jeweilgen Buchstaben hin. Das ist der einzige Bereich den du verändern musst.
+## Ziel
+
+Am Ende fügen wir alle Buchstaben zu einem animierten Alphabet zusammen.
 
 ## index.html
-Im `index.html` findest du deine dir zugewiesenen Buchstaben. In dieser Datei musst du nichts verändern.
+
+Im `index.html` steht das Alphabet.
 
 ```
 <div class="grid-container">
@@ -28,4 +24,48 @@ Im `index.html` findest du deine dir zugewiesenen Buchstaben. In dieser Datei mu
 </div>
 ```
 
+- Jeder Buchstabe hat eine ID.
+- Finde die zwei Buchstaben, die deinen Vornamen in der ID haben.
+- Die Übrigen kannst du löschen.
+
+
+## styles.css
+Im [Stylesheet](styles.css) definierst du die Gestaltungsregeln, um deine Buchstaben zu animieren. 
+
+```
+#name-1 {
+    /* TO DO  */
+}
+#name-2 {
+    /* TO DO  */
+}
+```
+
+- Ersetze zuerst `name` in den Selektoren `#name-1 {...}` und `#name-2 {...}` mit deinem kleingeschriebenen Vornamen, so dass deine Buchstaben in `index.html` angesprochen werden.
+- Tipp: Ändere zum Testen die Farbe: `color: red;`
+- Unter dem `/* TO DO  */` schreibst du dann die CSS-Eigenschaften für den jeweilgen Buchstaben hin.
+
+## Beispiel-Code für CSS Animationen
+
+```
+#name-1 {
+  animation-name: abc;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-directio: alterate; /* damit es abwechselnd vor- und rückwärts animiert */
+}
+
+@keyframes abc {
+  from { transform: scale 0.5; }
+  to { transform: scale 2; }
+}
+```
+
 ## Advanced (optional)
+
+Falls du weitere Herausforderungen brauchst:
+
+- B statt `from … to` mehrere Prozentwerte.
+- Suche interessante [Easings](https://easings.web) (du kannst als Wert eine Bezier-Kurve angeben).
+- Benutze mehrere Keyframe-Regeln für einen Buchstaben.
+- Lies in MDN, [Using CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations) und lass dich inspirieren.
