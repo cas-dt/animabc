@@ -66,6 +66,6 @@ Im [Stylesheet](styles.css) definierst du die Gestaltungsregeln, um deine Buchst
 Falls du weitere Herausforderungen brauchst:
 
 - B statt `from … to` mehrere Prozentwerte.
-- Suche interessante [Easings](https://easings.web) (du kannst als Wert eine Bezier-Kurve angeben).
+- Suche interessante [Easings](https://easings.net) (du kannst als Wert eine Bezier-Kurve angeben).
 - Benutze mehrere Keyframe-Regeln für einen Buchstaben.
 - Lies in MDN, [Using CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations) und lass dich inspirieren.
