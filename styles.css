@@ -12,11 +12,16 @@
     text-align: center;
 }
 
-#name-1 {
-    /* TO DO  */
+#vera-1 {
+    font-size: 2.5em;
+    color: yellow;
+    animation: vera-animation-1 2s ease-in-out infinite alternate;
 }
 
-#name-2 {
-    /* TO DO  */
+@keyframes vera-animation-1 {
+    from { text-shadow: 5px 5px rgb(0, 255, 234); }
+    to { text-shadow: 28px 0px rgb(0, 255, 55); }
 }
+
+
 
