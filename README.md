@@ -49,13 +49,13 @@ Im [Stylesheet](styles.css) definierst du die Gestaltungsregeln, um deine Buchst
 
 ```
 #name-1 {
-  animation-name: abc;
+  animation-name: name-animation-1;
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate; /* damit es abwechselnd vor- und rückwärts animiert */
 }
 
-@keyframes abc {
+@keyframes name-animation-1 {
   from { transform: scale(0.5); }
   to { transform: scale(2); }
 }
